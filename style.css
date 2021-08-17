@@ -1,0 +1,72 @@
+  1 #all{
+  2   width: 100vw;
+  3   height: 100vh;
+  4   display: flex;
+  5   justify-content: center;
+  6   align-items: center;
+  7   border: 2px solid black;
+  8   background: black;
+  9 }
+ 10 #st{
+ 11   position: absolute;
+ 12   top: 40%;
+ 13   border: 5px solid white;
+ 14   border-radius: 80%;
+ 15   width: 40vw;
+ 16   height: 30vh;
+ 17   transform: perspective(500em) rotate(-80deg);
+ 18   animation: animate 1s infinite;
+ 19   animation-delay: 0.4s;
+ 20 }
+ 21 #nd{
+ 22   position: absolute;
+ 23   top: 40%;
+ 24   border: 5px solid white;
+ 25   border-radius: 80%;
+ 26   width: 40vw;
+ 27   height: 30vh;
+ 28   transform: perspective(500em) rotate(-80deg) scale(0.8);
+ 29   animation: animate 1s infinite;
+ 30   animation-delay: 0.3s;
+ 31 }
+ 32
+ 33
+ 34 #rd{
+ 35   position: absolute;
+ 36   top: 40%;
+ 37   border: 5px solid white;
+ 38   border-radius: 80%;
+ 39   width: 40vw;
+ 40   height: 30vh;
+ 41   transform: perspective(500em) rotate(-80deg) scale(0.6);
+ 42   animation: animate 1s infinite;
+ 43   animation-delay: 0.2s;
+ 44 }
+ 45
+ 46 #th{
+ 47   position: absolute;
+ 48   top: 40%;
+ 49   border: 5px solid white;
+ 50   border-radius: 80%;
+ 51   width: 40vw;
+ 52   height: 30vh;
+ 53   transform: perspective(500em) rotate(-80deg) scale(0.4);
+ 54   animation: animate 1s infinite;
+ 55   animation-delay: 0.1s;
+ 56 }
+ 57 #main{
+ 58   position: absolute;
+ 59   top: 40%;
+ 60   border: 5px solid white;
+ 61   border-radius: 80%;
+ 62   width: 40vw;
+ 63   height: 30vh;
+ 64   transform: perspective(500em) rotate(-80deg) scale(0.2);
+ 65   animation: animate 1s infinite;
+ 66   animation-delay: 0s;
+ 67 }
+ 68 @keyframes animate{
+ 69   0%{top: 40%;}
+ 70   50%{top: 5%;}
+ 71   100%{top: 40%;}
+ 72 }
